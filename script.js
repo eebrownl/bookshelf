@@ -18,7 +18,9 @@ const addBook = (e) => {
 
     myLibrary.push(newBook);
     document.querySelector('form').reset();
-    console.log(newBook)
+    console.log(newBook);
+    console.log(myLibrary);
 }
 
 document.getElementById('btn').addEventListener('click', addBook)
+

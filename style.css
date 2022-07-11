@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.left-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.left {
+    background-color: salmon;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px;
+}
+
+label {
+    padding-right: 4px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    background-color: steelblue;
+}
+
+.right-container {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.output-box {
+    background-color: lightgrey;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 8px;
+    padding: 4px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
